@@ -10,7 +10,7 @@ DOMAIN = "www.dongchedi.com"
 
 # 浏览器配置
 BROWSER_CONFIG = {
-    'headless': False,  # 是否无头模式
+    'headless': True,  # 是否无头模式（服务器环境必须为True）
     'window_size': (1920, 1080),
     'page_load_timeout': 30,
     'element_wait_timeout': 10,
